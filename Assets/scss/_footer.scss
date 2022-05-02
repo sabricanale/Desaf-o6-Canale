@@ -1,0 +1,26 @@
+footer{
+    min-height: 100px;
+    p{
+        text-align: center;
+        a {
+            text-decoration: none;
+            color: $colorPrimario;
+            &:hover{
+                color: $colorNegro;
+            }
+        }
+    } 
+    
+    #iconos {
+        i{
+            font-size: 20px;
+            padding: 0 8px;
+            text-decoration: none;
+            color: $colorSecundario;
+            &:hover{
+                color:$colorNegro;
+            }
+        } 
+    }
+    
+}
