@@ -61,15 +61,10 @@ footer p a:hover{
             animation-delay: 2s;   
         }
         
-#titulo2 {
-            transform:rotateY(360deg);
-            transition: transform 5s;
-            animation-delay: 2s;   
-        }
 
 
 @keyframes letrasAnimacion{
-    0%: {color:white;}
+    0% {color:white;}
     50% {color:black;}
     100% {color:white;}
 

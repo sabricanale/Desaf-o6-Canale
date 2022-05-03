@@ -1,11 +1,21 @@
 #titulo {
     transform:rotateY(360deg);
     transition: transform 5s;
-    animation-delay: 2s;   
+    animation-delay: 2s; 
+    color: $colorNegro;
+    animation: miTitulo;  
+
 }
 
-#titulo2 {
-    transform:rotateY(360deg);
-    transition: transform 5s;
-    animation-delay: 2s;   
+@keyframes miTitulo {
+    0%{
+        color: $colorNegro;
+    }
+    50%{
+        color:$colorSecundario;
+    }
+    100%{
+        color:$colorNegro;
+    }
+
 }
