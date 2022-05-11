@@ -16,15 +16,3 @@ Respecto a SEO:
 
 
 
-
-
-
-
-
-
-
-*Agregue la etiqueta "title" y "meta"
-*Agregué en cada imagen la descripción de cada una en "alt"
-*Jerarquicé los h1 h2 h3 REDACTAR MEJOR
-
-
