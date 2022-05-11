@@ -1,7 +1,7 @@
 #titulo {
     transform:rotateY(360deg);
     transition: transform 5s;
-    animation-delay: 2s; 
+    animation-delay: map-get($boton, delayAnimacion); 
     color: $colorNegro;
     animation: miTitulo;  
 

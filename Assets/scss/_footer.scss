@@ -1,26 +1,28 @@
 footer{
-    min-height: 100px;
+    min-height: map-get($pieDePagina,alturaMin);
     p{
-        text-align: center;
-        a {
-            text-decoration: none;
-            color: $colorPrimario;
-            &:hover{
-                color: $colorNegro;
-            }
-        }
+        text-align: map-get($pieDePagina,alineadoTexto);
     } 
-    
-    #iconos {
+}
+
+a {
+    @extend .footer;
+    text-decoration: map-get($pieDePagina,decoTexto);
+    color: $colorPrimario;
+    &:hover{
+            color: $colorNegro;
+           }
+}  
+ 
+#iconos {
         i{
-            font-size: 20px;
-            padding: 0 8px;
-            text-decoration: none;
+            font-size: map-get($pieDePagina,tamañoFuente);
+            padding: map-get($pieDePagina,pading);
+            text-decoration: map-get($pieDePagina,decoTexto);
             color: $colorSecundario;
             &:hover{
                 color:$colorNegro;
             }
         } 
-    }
-    
 }
+    

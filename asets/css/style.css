@@ -1,1 +1,97 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.btn, .a {
+  width: auto;
+  height: auto;
+  background-color: gray;
+  animation-name: mianimacion;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  position: relative;
+}
+
+.a {
+  text-decoration: none;
+  color: white;
+  animation-name: letrasAnimacion;
+}
+
+@keyframes mianimacion {
+  0% {
+    background-color: gray;
+  }
+  50% {
+    background-color: #f89fae;
+    color: black;
+  }
+  100% {
+    background-color: gray;
+  }
+}
+
+@keyframes letrasAnimacion {
+  0% {
+    color: white;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+
+body {
+  font-family: "Josefin Sans";
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+#titulo {
+  transform: rotateY(360deg);
+  transition: transform 5s;
+  animation-delay: 2s;
+  color: black;
+  animation: miTitulo;
+}
+
+@keyframes miTitulo {
+  0% {
+    color: black;
+  }
+  50% {
+    color: gray;
+  }
+  100% {
+    color: black;
+  }
+}
+
+footer {
+  min-height: 100px;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #f89fae;
+}
+
+footer p a:hover {
+  color: black;
+}
+
+footer #iconos i {
+  font-size: 20px;
+  padding: 0 8px;
+  text-decoration: none;
+  color: gray;
+}
+
+footer #iconos i:hover {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
